@@ -33,7 +33,7 @@ gantt
     Public Launch: 2025-04-15, 15d
 ```
 
-Explanation of the Gantt chart:
+## Explanation of the Gantt chart:
 
 This Gantt chart provides a visual representation of the EVE project roadmap over a period of approximately 8 months. Here are the key elements and how to interpret the chart:
 
