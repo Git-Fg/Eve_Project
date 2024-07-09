@@ -1,8 +1,6 @@
 name: Compile Repository Content
 
 on:
-  permissions:
-    contents: write
   push:
     branches: [ main ]
   workflow_dispatch:
