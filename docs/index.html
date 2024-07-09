@@ -5,12 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language Preservation Project</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
-        header { background: #333; color: #fff; text-align: center; padding: 1rem; }
-        nav { background: #444; padding: 0.5rem; position: sticky; top: 0; }
-        nav a { color: #fff; text-decoration: none; padding: 0.5rem; }
-        .content { padding: 1rem; }
-        h1, h2, h3 { color: #333; }
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --background-color: #ecf0f1;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+        header {
+            background: var(--primary-color);
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background: var(--secondary-color);
+            padding: 0.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: var(--accent-color);
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+        h1, h2, h3 {
+            color: var(--primary-color);
+        }
+        h2 {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+        ul {
+            padding-left: 1.5rem;
+        }
+        p, li {
+            margin-bottom: 1rem;
+        }
+        .highlight {
+            background-color: #e6f3ff;
+            padding: 1rem;
+            border-left: 4px solid var(--accent-color);
+            margin: 1rem 0;
+        }
     </style>
 </head>
 <body>
@@ -26,9 +87,11 @@
         <h2>EVE Project Manifesto: Preserving the Tapestry of Human Thought</h2>
         <p>In a world where a language dies every two weeks, we face an unprecedented crisis of human expression. The Evolving Virtual Linguistic Ecosystem (EVE) project stands as a beacon of hope, a revolutionary endeavor to preserve, revitalize, and evolve the rich tapestry of human language and thought.</p>
         <p>EVE envisions a world where every linguistic nuance is cherished, where technology amplifies rather than supplants the diversity of human expression. We strive to create a dynamic, adaptive, and culturally sensitive linguistic ecosystem that simulates, preserves, and enriches the human experience of language through the ethical and thoughtful use of artificial intelligence.</p>
-        <p>Consider the South African concept of "Ubuntu" - "I am because we are" - a philosophy of human interconnectedness that defies simple translation. Or the multiple nuances of love in ancient Greek - "eros," "philia," "agape" - each capturing a unique facet of human affective experience. In Chinese, the rich lexicon of inaction, such as "wu wei" (non-action), reveals a distinct philosophical approach to harmony and efficiency.</p>
+        <div class="highlight">
+            <p>Consider the South African concept of "Ubuntu" - "I am because we are" - a philosophy of human interconnectedness that defies simple translation. Or the multiple nuances of love in ancient Greek - "eros," "philia," "agape" - each capturing a unique facet of human affective experience. In Chinese, the rich lexicon of inaction, such as "wu wei" (non-action), reveals a distinct philosophical approach to harmony and efficiency.</p>
+        </div>
         <p>Each dialect, however small, is a living history book, carrying within it the experiences, struggles, and triumphs of generations. Yet today, less than 10% of the world's languages have a substantial written tradition. The vastness of knowledge we lose daily - from ancestral wisdom about biodiversity to unique conflict resolution techniques - is incalculable.</p>
-        <p>EVE is not simply a technological project; it is a mission of rediscovery and preservation of human wisdom. Our fundamental goal is to create a dynamic linguistic ecosystem that captures not only words but also the cultural contexts, gestures, tones, and even the silences that give life to a language. We aim to:</p>
+        <p>EVE is not simply a technological project; it is a mission of rediscovery and preservation of human wisdom. Our fundamental goal is to create a dynamic linguistic ecosystem that captures not only words but also the cultural contexts, gestures, tones, and even the silences that give life to a language.</p>
         <p>EVE is a call to action to preserve our cognitive and cultural wealth. We invite linguists, technologists, philosophers, and cultural guardians to join us in this extraordinary quest. Together, we can create a living linguistic tapestry that honors the diversity of human thought.</p>
         <p>With EVE, we are not simply preserving words; we are safeguarding unique ways of perceiving and interacting with the world. Join us in redefining and enriching our understanding of what it means to be human.</p>
         <p>The future of language is in our hands. Together, let's ensure that this future is as rich and diverse as the human mind itself, preserving every nuance, every dialect, every unique way of seeing the world for generations to come.</p>
@@ -36,7 +99,9 @@
 
     <div id="pipeline" class="content">
         <h2>Fine-tuning Llama3-70b for Endangered Language Preservation: A Comprehensive Pipeline</h2>
-        <p>Note: This pipeline is designed to be iterative. Continuous feedback from the language community and ongoing evaluation should inform refinements at each stage of the process. The goal is not just to create a functional language model, but to develop a valuable tool for language preservation and revitalization that respects and empowers the community it serves.</p>
+        <div class="highlight">
+            <p>Note: This pipeline is designed to be iterative. Continuous feedback from the language community and ongoing evaluation should inform refinements at each stage of the process. The goal is not just to create a functional language model, but to develop a valuable tool for language preservation and revitalization that respects and empowers the community it serves.</p>
+        </div>
         
         <h3>1. Data Collection and Preparation</h3>
         <ul>
