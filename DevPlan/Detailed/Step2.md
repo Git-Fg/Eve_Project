@@ -1,4 +1,4 @@
-## Step 2: Data Collection and Preprocessing (3 weeks)
+## Step 2: Data Collection and Preprocessing
 
 ### Week 1: Language Selection and Initial Data Gathering
 
