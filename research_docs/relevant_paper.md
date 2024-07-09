@@ -2,3 +2,9 @@
 
 [Optimizing the impact of data augmentation for low-resource
 grammatical error correction](https://www.sciencedirect.com/science/article/pii/S131915782300126X)
+
+[Mahamud et al. (2023). Distributional Data Augmentation Methods for Low Resource Language.](https://arxiv.org/abs/2309.04862)
+
+[Şahin and Steedman (2018). Data Augmentation via Dependency Tree Morphing for Low-Resource Languages.](https://aclanthology.org/D18-1545/)
+
+[Krishna Garg, Jishnu Ray Chowdhury, Cornelia Caragea (2023). Data Augmentation for Low-Resource Keyphrase Generation.](https://arxiv.org/abs/2305.17968)
