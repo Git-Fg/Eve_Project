@@ -40,4 +40,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add GenerativeAI/compiled_content.md
         git commit -m "Update compiled content" || echo "No changes to commit"
+        git push https://${{ secrets.PAT }}@github.com/${{ github.repository }}.git
+        git add GenerativeAI/compiled_content.md
+        git commit -m "Update compiled content" || echo "No changes to commit"
         git push
