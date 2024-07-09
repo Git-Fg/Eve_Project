@@ -8,40 +8,37 @@ For a comprehensive overview of the project, visit our [Wiki Home Page](https://
 
 ```mermaid
 graph LR
-    subgraph "1. Linguistic Core"
-        A["Language Data & Rules"]
+    subgraph "Linguistic Core"
+        A["Language<br/>Knowledge Base"]
     end
-    subgraph "2. Cultural Immersion"
-        B["VR/AR Experiences<br/>Cultural Simulations"]
+    subgraph "Cultural Immersion"
+        B["Virtual & Augmented<br/>Reality Worlds"]
     end
-    subgraph "3. Adaptive Context"
-        C["Cognitive Maps<br/>Language Games"]
-    end
-    subgraph "4. Non-verbal Comm."
-        D["Gestures<br/>Expressions<br/>Paralinguistics"]
+    subgraph "Adaptive Learning"
+        F["Personalized<br/>Language Lessons"]
     end
 
-    A -->|"Language Generation"| D
-    A -->|"Cultural Context"| C
-    B <-->|"Immersive Interactions"| C 
-    C -->|"Contextual Language"| D
-    D -->|"Expressive Output"| B
+    A -->|"Generates Language"| D["Expressive<br/>Communication"]
+    B <-->|"Immersive Experiences"| F 
     
-    subgraph "5. Cultural & Artistic Interface"
-        E["Art, Literature<br/>Cultural Artifacts"]
+    subgraph "Context & Understanding"
+        C["Cultural & Cognitive<br/>Models"]
     end
-    E -->|"Cultural Enrichment"| B
-    E -->|"Creative Expression"| A
-
-    subgraph "6. Immersive Learning"
-        F["Personalized Lessons<br/>Dialect Exploration"]
-    end
-    B --> F
+    A -->|"Cultural Context"| C
+    C -->|"Contextual Nuances"| D
     F -->|"Learning Data"| A
     F -->|"User Preferences"| C
 
-    subgraph "7. Ethics Lab"
-        G["Ethical Guidelines<br/>Cultural Sensitivity"]
+    subgraph "Creative & Artistic"
+        E["Art, Literature,<br/>Cultural Expressions"]
+    end
+    E -->|"Enriches Experiences"| B
+    E -->|"Inspires Language"| A
+
+    D -->|"Non-verbal Cues"| B
+
+    subgraph "Ethical Guidance"
+        G["Ethics &<br/>Cultural Respect"]
     end
     G -->|Oversees| A
     G -->|Oversees| B
@@ -50,12 +47,12 @@ graph LR
     G -->|Oversees| E
     G -->|Oversees| F
     
-    subgraph "8. Community Governance"
+    subgraph "Community Driven"
         H["User Contributions<br/>Language Evolution"]
     end
-    H -->|"Feedback & Data"| A
+    H -->|"Data & Feedback"| A
     H -->|"Cultural Insights"| B
-    H -->|"User Preferences"| F
+    H -->|"User Needs"| F
     H -->|"Ethical Guidance"| G 
 
     classDef module fill:#e0f7fa,stroke:#00acc1,stroke-width:2px;
