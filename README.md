@@ -54,7 +54,7 @@ gantt
 
 [This development plan is in alpha and subject to change]
 
-For a detailed breakdown of our project phases, visit our [Project Roadmap](https://github.com/Git-Fg/Eve_Project/wiki/Roadmap) wiki page.
+For a detailed breakdown of our project phases, visit our [[Project Roadmap](https://github.com/Git-Fg/Eve_Project/wiki/Roadmap)](https://github.com/Git-Fg/Eve_Project/wiki/Project-Roadmap) wiki page.
 
 ## Key Components
 
