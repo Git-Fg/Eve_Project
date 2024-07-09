@@ -1,14 +1,13 @@
-## Step 3: Core Language Model Development (4 weeks)
+## Step 3: Core Language Model Development
 
 ### Week 1: Model Selection and Initial Setup
 
 #### Day 1-2: Model Research and Selection
 1. Evaluate pre-trained language models suitable for multilingual fine-tuning:
-   - BERT and its multilingual variants (mBERT, XLM-RoBERTa)
-   - GPT-2 and GPT-3 (if accessible)
-   - T5 and mT5 for their versatility in multiple NLP tasks
-2. Consider models with potential for low-resource language adaptation
-3. Document model comparison and selection rationale in `docs/model_selection.md`
+   - LLaMA 3 70B for its advanced multilingual capabilities
+   - Gemma 2 9B and 27B for their efficiency and performance
+   - Consider GPT-4 and Claude 3.5 for synthetic data generation
+2. Document model comparison and selection rationale in `docs/model_selection.md`
 
 #### Day 3-4: Development Environment Setup
 1. Set up GPU-enabled development environment:
@@ -20,7 +19,7 @@
    - Implement tokenization using the selected model's tokenizer
 
 #### Day 5: Initial Model Testing
-1. Load pre-trained model and tokenizer
+1. Load pre-trained LLaMA 3 70B and Gemma 2 27B models
 2. Perform initial inference tests on sample data from both languages
 3. Document baseline performance metrics in `docs/baseline_performance.md`
 
@@ -30,19 +29,19 @@
 1. Implement fine-tuning script in `src/models/fine_tune.py`:
    - Use Hugging Face's Trainer API for efficient fine-tuning
    - Implement gradient accumulation and mixed precision training
-2. Fine-tune the model on the French dataset
+2. Fine-tune LLaMA 3 70B on the French dataset
 3. Evaluate performance on French language tasks (e.g., text generation, classification)
 
 #### Day 3-4: Ainu Language Adaptation
 1. Implement techniques for low-resource language adaptation:
-   - Few-shot learning approaches
+   - Few-shot learning approaches using Gemma 2 9B
    - Meta-learning techniques if applicable
 2. Adapt the model to the Ainu dataset
 3. Evaluate performance on Ainu language tasks
 
 #### Day 5: Cross-lingual Transfer
 1. Experiment with cross-lingual transfer techniques:
-   - Zero-shot cross-lingual transfer
+   - Zero-shot cross-lingual transfer using LLaMA 3 70B
    - Translate-train approach if necessary
 2. Evaluate model's ability to generalize across both languages
 3. Document findings in `docs/cross_lingual_performance.md`
@@ -93,20 +92,3 @@
 2. Conduct thorough testing of all API endpoints and model functionalities
 3. Update project README with information about the model and API usage
 4. Prepare a demo script showcasing the model's capabilities across both languages
-
-### Deliverables for Step 3
-1. Fine-tuned multilingual language model supporting French and Ainu
-2. Cultural context integration mechanism
-3. RESTful API for interacting with the model
-4. Docker container and deployment configuration
-5. Comprehensive documentation:
-   - Model selection and fine-tuning process
-   - Cultural integration approach
-   - API usage guide
-   - Optimization techniques
-6. Evaluation reports for model performance and cultural appropriateness
-
-### Next Steps
-- Begin development of the user interface (Step 4)
-- Plan for the immersive learning module integration
-- Consider expanding the model to include more languages and cultural contexts
