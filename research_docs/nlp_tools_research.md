@@ -428,8 +428,12 @@ Researchers are exploring ways to leverage large pretrained multilingual models 
 In conclusion, data augmentation for low-resource languages remains an active and crucial area of research in NLP. As techniques evolve, they promise to bridge the gap between high-resource and low-resource languages, enabling more inclusive and diverse language technologies.
 
 **References:**
-[1] Mahamud et al. (2023). Distributional Data Augmentation Methods for Low Resource Language.
-[2] Şahin and Steedman (2018). Data Augmentation via Dependency Tree Morphing for Low-Resource Languages.
-[3] Reference to MulDA framework (specific citation not provided in the context).
-[4] Garg et al. (2023). Data Augmentation for Low-Resource Keyphrase Generation.
-[5] Aiman et al. (2023). Optimizing the impact of data augmentation for low-resource grammatical error correction.
+[1] [Mahamud et al. (2023). Distributional Data Augmentation Methods for Low Resource Language.](https://arxiv.org/abs/2309.04862)
+
+[2] [Şahin and Steedman (2018). Data Augmentation via Dependency Tree Morphing for Low-Resource Languages.](https://aclanthology.org/D18-1545/)
+
+[3] [Reference to MulDA framework](https://aclanthology.org/2021.acl-long.453/)
+
+[4] [Krishna Garg, Jishnu Ray Chowdhury, Cornelia Caragea (2023). Data Augmentation for Low-Resource Keyphrase Generation.](https://arxiv.org/abs/2305.17968)
+
+[5] [Aiman et al. (2023). Optimizing the impact of data augmentation for low-resource grammatical error correction.](https://www.sciencedirect.com/science/article/pii/S131915782300126X)
