@@ -41,8 +41,7 @@ While the paper does not specifically discuss immersive technologies, the princi
 
 ---
 
-# [Optimizing the impact of data augmentation for low-resource
-grammatical error correction](https://www.sciencedirect.com/science/article/pii/S131915782300126X)
+# [Optimizing the impact of data augmentation for low-resource grammatical error correction](https://www.sciencedirect.com/science/article/pii/S131915782300126X)
 
 - Transformer-based neural network architecture used as foundation for grammatical error correction (GEC) system
 - Data augmentation techniques to expand limited training data:
