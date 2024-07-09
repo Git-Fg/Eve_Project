@@ -1,3 +1,29 @@
+'''mermaid
+gantt
+    title EVE Project Roadmap
+    dateFormat  YYYY-MM-DD
+    section Foundation and Research
+    Project Initiation & Team Assembly: 2024-01-01, 30d
+    Linguistic & Cultural Research: 2024-01-15, 45d
+    Ethical Framework Development: 2024-02-15, 30d
+    section Core Technology Development
+    AI-Driven Linguistic Core: 2024-03-01, 60d
+    Immersive Cultural Module: 2024-04-01, 60d
+    Cognitive Mapping Systems: 2024-05-01, 45d
+    section User Interface and Experience
+    Cultural Interface Design: 2024-05-15, 40d
+    Immersive Learning Platform: 2024-06-01, 45d
+    Collaborative Evolution Interface: 2024-06-15, 30d
+    section Data Collection and Integration
+    Ethical Data Collection: 2024-03-15, 90d
+    Linguistic Data Processing: 2024-05-01, 60d
+    Artistic Elements Integration: 2024-06-01, 45d
+    section Testing and Launch
+    System Testing: 2024-07-01, 30d
+    Beta Testing: 2024-07-15, 45d
+    Public Launch: 2024-08-15, 15d
+'''
+
 ## Step 1: Project Setup and Research (2 weeks)
 
 ### Week 1: Environment Setup and Initial Research
