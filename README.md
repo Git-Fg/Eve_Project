@@ -6,7 +6,7 @@ The Evolving Virtual Linguistic Ecosystem (EVE) project is a revolutionary initi
 
 For a comprehensive overview of the project, visit our [Wiki Home Page](https://github.com/Git-Fg/Eve_Project/wiki/home).
 
-```
+```mermaid
 graph LR
     subgraph "1. Linguistic Core"
         A["Language Data & Rules"]
