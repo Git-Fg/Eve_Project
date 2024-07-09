@@ -92,7 +92,7 @@ Each theory built on and reacted to its predecessors, reflecting changing intell
 
 ### Definition and Core Concepts
 
-Ethnolinguistic Vitality Theory (EVT) is a sociolinguistic framework that examines the ability of a language group to maintain and protect its existence as a collective entity with a distinctive identity and language[1](https://sciendo.com/fr/article/10.2478/sm-2023-0002)  [2](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118611463.wbielsi046). The theory considers two main aspects:
+Ethnolinguistic Vitality Theory (EVT) is a sociolinguistic framework that examines the ability of a language group to maintain and protect its existence as a collective entity with a distinctive identity and language [1](https://sciendo.com/fr/article/10.2478/sm-2023-0002)  [2](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118611463.wbielsi046). The theory considers two main aspects:
 
 1. Sustainability (Su): The ability of a language to continue being used across generations.
 2. Strength (S): The power and influence of the language within its social context.
@@ -113,7 +113,7 @@ In the context of NLP, EVT provides a valuable framework for understanding the s
 
 ## 2. Key Components of Cultural Conceptualizations in Language
 
-Cultural Conceptualizations in Language (CCL) is a theoretical framework that explores how cultural knowledge and experiences are reflected in language use[5](https://core.ac.uk/download/pdf/235269418.pdf)[9](https://www.researchgate.net/publication/316623713_Cultural_Linguistics_The_State_of_the_Art). The key components of CCL include:
+Cultural Conceptualizations in Language (CCL) is a theoretical framework that explores how cultural knowledge and experiences are reflected in language use [5](https://core.ac.uk/download/pdf/235269418.pdf)  [9](https://www.researchgate.net/publication/316623713_Cultural_Linguistics_The_State_of_the_Art). The key components of CCL include:
 
 1. Cultural schemas: Abstracted, shared mental representations of cultural experiences
 2. Cultural categories: Culturally specific ways of classifying and organizing concepts
@@ -153,9 +153,9 @@ Integrating EVT and CCL into NLP applications can enhance cultural preservation 
 
 Several challenges arise when attempting to integrate EVT and CCL into NLP applications:
 
-1. Data scarcity: Languages with low ethnolinguistic vitality often lack sufficient digital resources for training NLP models[7](https://www.researchgate.net/publication/371454568_Ethnolinguistics_Vitality_Theory_The_Last_Stance_for_a_Language_Survival).
+1. Data scarcity: Languages with low ethnolinguistic vitality often lack sufficient digital resources for training NLP models [7](https://www.researchgate.net/publication/371454568_Ethnolinguistics_Vitality_Theory_The_Last_Stance_for_a_Language_Survival).
 
-2. Cultural bias: Existing NLP models and datasets may contain biases that favor dominant cultures and languages[8](https://aclanthology.org/2022.acl-long.482.pdf).
+2. Cultural bias: Existing NLP models and datasets may contain biases that favor dominant cultures and languages [8](https://aclanthology.org/2022.acl-long.482.pdf).
 
 3. Dynamic nature of culture: Cultural conceptualizations evolve over time, requiring constant updates to NLP systems.
 
@@ -169,7 +169,7 @@ Several challenges arise when attempting to integrate EVT and CCL into NLP appli
 
 To address these challenges, researchers and practitioners can consider the following approaches:
 
-1. Collaborative data collection: Partner with language communities to develop culturally rich, diverse datasets[3](http://d-scholarship.pitt.edu/42916/1/DeLoge_Final%20ETD.pdf).
+1. Collaborative data collection: Partner with language communities to develop culturally rich, diverse datasets [3](http://d-scholarship.pitt.edu/42916/1/DeLoge_Final%20ETD.pdf).
 
 2. Transfer learning: Leverage knowledge from high-resource languages to improve NLP performance for low-resource languages.
 
@@ -187,12 +187,12 @@ To address these challenges, researchers and practitioners can consider the foll
 
 Several projects have successfully applied EVT and CCL principles to NLP:
 
-1. Indigenous language preservation: The First Peoples' Cultural Council in Canada has developed NLP tools for low-resource Indigenous languages, incorporating cultural knowledge and community involvement[4](https://www.cibtech.org/sp.ed/jls/2015/01/421-JLS-S1-423-AZAM-LANGUAGE-CULTURAL2.pdf).
+1. Indigenous language preservation: The First Peoples' Cultural Council in Canada has developed NLP tools for low-resource Indigenous languages, incorporating cultural knowledge and community involvement [4](https://www.cibtech.org/sp.ed/jls/2015/01/421-JLS-S1-423-AZAM-LANGUAGE-CULTURAL2.pdf).
 
-2. Cross-cultural dialogue systems: Researchers have developed chatbots that adapt to different cultural communication styles, improving user engagement across diverse cultural backgrounds[6](https://www.sciencedirect.com/science/article/pii/S2215039023000425).
+2. Cross-cultural dialogue systems: Researchers have developed chatbots that adapt to different cultural communication styles, improving user engagement across diverse cultural backgrounds [6](https://www.sciencedirect.com/science/article/pii/S2215039023000425).
 
-3. Culturally aware machine translation: The DARPA LORELEI program has focused on developing machine translation systems that account for cultural differences in low-resource languages, improving communication in crisis situations[10](https://shelf.io/blog/challenges-and-considerations-in-nlp/).
+3. Culturally aware machine translation: The DARPA LORELEI program has focused on developing machine translation systems that account for cultural differences in low-resource languages, improving communication in crisis situations [10](https://shelf.io/blog/challenges-and-considerations-in-nlp/).
 
-4. Sentiment analysis in multilingual contexts: Studies have shown improved performance in sentiment analysis by incorporating cultural conceptualizations, particularly for languages with unique cultural expressions of emotion[11](https://www.researchgate.net/publication/361063297_Challenges_and_Strategies_in_Cross-Cultural_NLP).
+4. Sentiment analysis in multilingual contexts: Studies have shown improved performance in sentiment analysis by incorporating cultural conceptualizations, particularly for languages with unique cultural expressions of emotion [11](https://www.researchgate.net/publication/361063297_Challenges_and_Strategies_in_Cross-Cultural_NLP).
 
 These examples demonstrate the potential for EVT and CCL to enhance NLP applications while preserving cultural context. As the field continues to evolve, integrating these frameworks will be crucial for developing truly culturally aware and inclusive NLP systems.
