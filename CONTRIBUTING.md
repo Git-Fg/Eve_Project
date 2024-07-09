@@ -12,7 +12,7 @@ First off, thank you for considering contributing to EVE! It's people like you t
 
 ## Code of Conduct
 
-By participating in this project, you are expected to uphold our [Code of Conduct](CODE_OF_CONDUCT.md). Please report unacceptable behavior to [conduct@eveproject.org](mailto:conduct@eveproject.org).
+By participating in this project, you are expected to uphold our [Code of Conduct](CODE_OF_CONDUCT.md). Please report unacceptable behavior.
 
 ## What we're looking for
 
