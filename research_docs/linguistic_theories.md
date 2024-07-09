@@ -92,7 +92,7 @@ Each theory built on and reacted to its predecessors, reflecting changing intell
 
 ### Definition and Core Concepts
 
-Ethnolinguistic Vitality Theory (EVT) is a sociolinguistic framework that examines the ability of a language group to maintain and protect its existence as a collective entity with a distinctive identity and language[1](https://sciendo.com/fr/article/10.2478/sm-2023-0002)[2](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118611463.wbielsi046). The theory considers two main aspects:
+Ethnolinguistic Vitality Theory (EVT) is a sociolinguistic framework that examines the ability of a language group to maintain and protect its existence as a collective entity with a distinctive identity and language[1](https://sciendo.com/fr/article/10.2478/sm-2023-0002)  [2](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118611463.wbielsi046). The theory considers two main aspects:
 
 1. Sustainability (Su): The ability of a language to continue being used across generations.
 2. Strength (S): The power and influence of the language within its social context.
