@@ -193,6 +193,6 @@ Several projects have successfully applied EVT and CCL principles to NLP:
 
 3. Culturally aware machine translation: The DARPA LORELEI program has focused on developing machine translation systems that account for cultural differences in low-resource languages, improving communication in crisis situations [10](https://shelf.io/blog/challenges-and-considerations-in-nlp/).
 
-4. Sentiment analysis in multilingual contexts: Studies have shown improved performance in sentiment analysis by incorporating cultural conceptualizations, particularly for languages with unique cultural expressions of emotion [11]([https://www.researchgate.net/publication/361063297_Challenges_and_Strategies_in_Cross-Cultural_NLP](https://arxiv.org/abs/2203.10020)).
+4. Sentiment analysis in multilingual contexts: Studies have shown improved performance in sentiment analysis by incorporating cultural conceptualizations, particularly for languages with unique cultural expressions of emotion [11]([https://www.researchgate.net/publication/361063297_Challenges_and_Strategies_in_Cross-Cultural_NLP](https://arxiv.org/abs/2203.10020).
 
 These examples demonstrate the potential for EVT and CCL to enhance NLP applications while preserving cultural context. As the field continues to evolve, integrating these frameworks will be crucial for developing truly culturally aware and inclusive NLP systems.
